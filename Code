@@ -1,5 +1,5 @@
 import random
-
+#its veery helpfull 
 def computerGuess(lowval, highval, randnum, count = 0):
     if highval >= lowval :
         guess = lowval + (highval-lowval) // 2
